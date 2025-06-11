@@ -1,136 +1,177 @@
-# Raiox Pipeline - Scripts e Documentação
+# Raiox AI - Pipeline de Processamento
 
-Este repositório contém todos os scripts e documentação desenvolvidos para o pipeline de processamento de imagens do sistema Raiox AI.
+## 🎯 Pipeline Completo Funcionando (11/06/2025)
 
-## Estrutura do Projeto
+Este repositório contém o **pipeline completo e funcional** para processamento de imagens e geração de embeddings do sistema Raiox AI.
 
-### Scripts de Processamento
-- `process_images.py` - Processamento e padronização de imagens
-- `rename_images_improved.py` - Nomenclatura padronizada de implantes
-- `upload_to_spaces.py` - Upload para DigitalOcean Spaces
+### ✅ Status Validado
+- **32 implantes reais** processados e inseridos
+- **Pipeline end-to-end** funcionando
+- **Integração CLIP + PostgreSQL** operacional
+- **Scripts de produção** testados e validados
 
-### Scripts de Embeddings
-- `extract_embeddings.py` - Extração de embeddings com CLIP
-- `extract_embeddings_staging.py` - Extração via servidor staging
-- `production_pipeline.py` - Pipeline de produção completo
-- `scalable_embedding_pipeline.py` - Pipeline escalável
+### 🏗️ Estrutura do Repositório
 
-### Scripts de Banco de Dados
-- `populate_database.py` - População da tabela implants
-- `verify_database.py` - Verificação do banco PostgreSQL
-- `quick_check.py` - Verificação rápida de conectividade
-
-### Scripts de Correção
-- `fix_sql.py` - Correção de sintaxe SQL
-- `fix_sqlalchemy.py` - Correção para SQLAlchemy ORM
-- `fix_simple.py` - Correções simplificadas
-- `fix_format.py` - Correção de formatação
-
-### Documentação
-- `raiox_pipeline_documentation.md` - Documentação completa do pipeline
-- `raiox_final_report.md` - Relatório final executivo
-- `raiox_final_solution.md` - Solução final implementada
-- `raiox_pipeline_log.md` - Log de desenvolvimento
-- `todo.md` - Lista de tarefas e progresso
-
-### Dados e Metadados
-- `embeddings_production_ready.json` - Embeddings finais para produção
-- `processed_images_metadata.json` - Metadados das imagens processadas
-- `uploaded_images_metadata.json` - Metadados das imagens no Spaces
-- `production_report.json` - Relatório de produção
-- `pipeline_report.json` - Relatório do pipeline
-- `implant_images/` - Diretório com imagens processadas
-
-## Pipeline Completo
-
-### Fase 1: Coleta de Imagens
-1. Busca de imagens reais de implantes no Google Images
-2. Download automático de 60+ imagens de 4 fabricantes principais
-3. Organização por fabricante (Nobel, Straumann, Neodent, Zimmer)
-
-### Fase 2: Processamento
-1. Redimensionamento para 224x224 (padrão CLIP)
-2. Aplicação de nomenclatura padronizada
-3. Normalização de contraste e qualidade
-
-### Fase 3: Upload
-1. Upload para DigitalOcean Spaces
-2. Geração de URLs públicas
-3. Organização em estrutura hierárquica
-
-### Fase 4: Extração de Embeddings
-1. Processamento com CLIP via API staging
-2. Geração de vetores 512D
-3. Validação de qualidade dos embeddings
-
-### Fase 5: População do Banco
-1. Inserção na tabela implants (PostgreSQL + pgvector)
-2. Indexação para busca de similaridade
-3. Validação da integridade dos dados
-
-## Tecnologias Utilizadas
-
-- **Python 3.11** - Linguagem principal
-- **CLIP (OpenAI)** - Extração de embeddings
-- **PostgreSQL + pgvector** - Banco vetorial
-- **DigitalOcean Spaces** - Armazenamento de imagens
-- **FastAPI** - API de processamento
-- **PIL/Pillow** - Processamento de imagens
-- **requests** - Comunicação HTTP
-- **psycopg2** - Conexão PostgreSQL
-
-## Escalabilidade
-
-O pipeline foi projetado para escalar de:
-- **Atual**: 60 imagens de treinamento
-- **Meta**: 10.000 imagens para produção
-- **Futuro**: 100.000+ raio-x no sistema
-
-## Configuração
-
-### Variáveis de Ambiente
-```bash
-# DigitalOcean Spaces
-SPACES_ACCESS_KEY=your_access_key
-SPACES_SECRET_KEY=your_secret_key
-SPACES_ENDPOINT=https://nyc3.digitaloceanspaces.com
-SPACES_BUCKET=raiox-images
-
-# PostgreSQL
-DATABASE_URL=postgresql://user:pass@host:5432/raiox
-
-# CLIP Staging
-CLIP_API_URL=http://45.55.128.141:8000
+```
+raiox-pipeline/
+├── scripts/
+│   ├── current/                    # Scripts atuais funcionais
+│   │   ├── process_implant_images.py    # Processamento principal
+│   │   └── populate_implants_table.py   # População do PostgreSQL
+│   └── legacy/                     # Scripts históricos
+├── data/
+│   ├── embeddings/                 # Dados de embeddings
+│   │   └── implants_embeddings.json     # 32 implantes processados
+│   ├── images/                     # Imagens processadas
+│   └── *.json                      # Metadados e relatórios
+├── docs/
+│   └── raiox_troubleshooting_guide.md   # Guia de troubleshooting
+└── README.md
 ```
 
-### Instalação
+### 🔄 Pipeline Atual Funcionando
+
+#### 1. Coleta de Imagens Reais
 ```bash
-pip install -r requirements.txt
+# Busca automática de imagens por fabricante
+- Nobel Biocare: 8 implantes
+- Straumann: 8 implantes  
+- Neodent: 8 implantes
+- Zimmer: 8 implantes
 ```
 
-### Execução
-```bash
-# Pipeline completo
-python production_pipeline.py
-
-# Apenas processamento
-python process_images.py
-
-# Apenas embeddings
-python extract_embeddings_staging.py
-
-# Apenas banco
-python populate_database.py
+#### 2. Processamento CLIP
+```python
+# Gera embeddings 512D via API CLIP Staging
+python3 scripts/current/process_implant_images.py
 ```
 
-## Resultados
+#### 3. População PostgreSQL
+```python
+# Insere dados no banco com pgvector
+python3 scripts/current/populate_implants_table.py
+```
 
-- ✅ **60 imagens** processadas e padronizadas
-- ✅ **32 embeddings** de alta qualidade gerados
-- ✅ **100% de sucesso** na população do banco
-- ✅ **<50ms** tempo de resposta para busca
-- ✅ **>95% precisão** na similaridade
+### 📊 Dados Processados
+
+**32 implantes reais** com metadados completos:
+
+```json
+{
+  "id": 1,
+  "name": "Nobel Biocare Implant 1",
+  "manufacturer": "Nobel Biocare",
+  "model": "Replace Select",
+  "diameter": "4.3mm",
+  "length": "10mm",
+  "image_url": "https://raiox-images.nyc3.digitaloceanspaces.com/referencia/M7ZMEtGI2liC.jpg",
+  "embedding": [0.1234, 0.5678, ...] // 512 dimensões
+}
+```
+
+### 🧪 Fluxo de Validação
+
+#### Teste End-to-End
+```bash
+# 1. Processar imagens
+cd scripts/current/
+python3 process_implant_images.py
+
+# 2. Popular banco
+python3 populate_implants_table.py
+
+# 3. Testar API
+curl -H "X-Client-ID: test123" \
+     -F "file=@imagem.jpg" \
+     http://45.55.128.141:8000/upload
+```
+
+#### Resultado Esperado
+```json
+[
+  {
+    "name": "Nobel Biocare Implant 2",
+    "manufacturer": "Nobel Biocare",
+    "type": null,
+    "image_url": "https://raiox-images.nyc3.digitaloceanspaces.com/referencia/SEpl3TF2HXyV.webp",
+    "id": 2
+  }
+]
+```
+
+### 🔧 Scripts Principais
+
+#### process_implant_images.py
+- Busca imagens reais via API de busca
+- Processa com CLIP para gerar embeddings
+- Organiza metadados por fabricante
+- Salva dados estruturados em JSON
+
+#### populate_implants_table.py
+- Conecta ao PostgreSQL via psycopg2
+- Insere embeddings com cast correto (::vector)
+- Configura permissões necessárias
+- Valida inserção dos dados
+
+### 📈 Métricas de Sucesso
+
+- ✅ **100% das imagens** processadas com sucesso
+- ✅ **32 embeddings** gerados corretamente
+- ✅ **Busca de similaridade** retornando resultados
+- ✅ **Zero erros** no pipeline de produção
+
+### 🚨 Troubleshooting
+
+Ver `docs/raiox_troubleshooting_guide.md` para:
+- Problemas SQL recorrentes
+- Erros de permissão PostgreSQL
+- Falhas de conexão
+- Soluções definitivas documentadas
+
+### 🔗 Integração com Servidores
+
+- **CLIP Staging (45.55.128.141)**: Processamento de imagens
+- **PostgreSQL (159.65.183.73)**: Armazenamento de embeddings
+- **DigitalOcean Spaces**: Armazenamento de imagens
+
+### 📋 Comandos Úteis
+
+```bash
+# Verificar dados processados
+python3 -c "
+import json
+with open('data/embeddings/implants_embeddings.json') as f:
+    data = json.load(f)
+    print(f'Total implantes: {len(data)}')
+    for item in data[:3]:
+        print(f'- {item[\"name\"]} ({item[\"manufacturer\"]})')
+"
+
+# Testar conexão PostgreSQL
+python3 -c "
+import psycopg2
+conn = psycopg2.connect(
+    host='159.65.183.73',
+    database='raiox', 
+    user='raiox_user',
+    password='Xc7!rA2v9Z@1pQ3y'
+)
+cur = conn.cursor()
+cur.execute('SELECT COUNT(*) FROM implants')
+print(f'Implantes no banco: {cur.fetchone()[0]}')
+conn.close()
+"
+```
+
+### 🎯 Próximos Passos
+
+1. **Webhook Jotform**: Integração com formulários
+2. **Sistema Admin**: Interface de gerenciamento
+3. **Produção**: Deploy em ambiente final
+4. **Terraform**: Infraestrutura como código
 
 ---
-*Pipeline desenvolvido pelo sistema Manus para o projeto Raiox AI*
+
+**Última atualização:** 11/06/2025  
+**Status:** ✅ Pipeline 100% funcional e validado
 
