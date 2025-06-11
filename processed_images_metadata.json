@@ -1,0 +1,542 @@
+[
+  {
+    "original_filename": "0KVdWvEHTPyP.jpg",
+    "new_filename": "NOBEL_REPLACE_4.3mm_01.jpg",
+    "fabricante": "NOBEL",
+    "modelo": "REPLACE",
+    "diametro": "4.3mm",
+    "path": "/home/ubuntu/implant_images/NOBEL_REPLACE_4.3mm_01.jpg",
+    "search_order": 1
+  },
+  {
+    "original_filename": "0QroXbxyGhUg.jpg",
+    "new_filename": "NOBEL_REPLACE_3.5mm_02.jpg",
+    "fabricante": "NOBEL",
+    "modelo": "REPLACE",
+    "diametro": "3.5mm",
+    "path": "/home/ubuntu/implant_images/NOBEL_REPLACE_3.5mm_02.jpg",
+    "search_order": 2
+  },
+  {
+    "original_filename": "12bIsvx1Ka2J.png",
+    "new_filename": "NOBEL_REPLACE_4.0mm_03.jpg",
+    "fabricante": "NOBEL",
+    "modelo": "REPLACE",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/NOBEL_REPLACE_4.0mm_03.jpg",
+    "search_order": 3
+  },
+  {
+    "original_filename": "1EudAMZtzWXD.jpg",
+    "new_filename": "NOBEL_REPLACE_4.3mm_04.jpg",
+    "fabricante": "NOBEL",
+    "modelo": "REPLACE",
+    "diametro": "4.3mm",
+    "path": "/home/ubuntu/implant_images/NOBEL_REPLACE_4.3mm_04.jpg",
+    "search_order": 4
+  },
+  {
+    "original_filename": "1N2poDctJfbQ.jpg",
+    "new_filename": "NOBEL_REPLACE_5.0mm_05.jpg",
+    "fabricante": "NOBEL",
+    "modelo": "REPLACE",
+    "diametro": "5.0mm",
+    "path": "/home/ubuntu/implant_images/NOBEL_REPLACE_5.0mm_05.jpg",
+    "search_order": 5
+  },
+  {
+    "original_filename": "1Pu0ZOa8ZR06.webp",
+    "new_filename": "NOBEL_REPLACE_4.3mm_06.jpg",
+    "fabricante": "NOBEL",
+    "modelo": "REPLACE",
+    "diametro": "4.3mm",
+    "path": "/home/ubuntu/implant_images/NOBEL_REPLACE_4.3mm_06.jpg",
+    "search_order": 6
+  },
+  {
+    "original_filename": "5L9opis06TqK.jpg",
+    "new_filename": "NOBEL_REPLACE_3.5mm_07.jpg",
+    "fabricante": "NOBEL",
+    "modelo": "REPLACE",
+    "diametro": "3.5mm",
+    "path": "/home/ubuntu/implant_images/NOBEL_REPLACE_3.5mm_07.jpg",
+    "search_order": 7
+  },
+  {
+    "original_filename": "5lZTVseOEDEs_thumbnail_grid.webp",
+    "new_filename": "NOBEL_REPLACE_4.0mm_08.jpg",
+    "fabricante": "NOBEL",
+    "modelo": "REPLACE",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/NOBEL_REPLACE_4.0mm_08.jpg",
+    "search_order": 8
+  },
+  {
+    "original_filename": "6Q044a6wuXpa.png",
+    "new_filename": "STRAUMANN_BL_3.3mm_09.jpg",
+    "fabricante": "STRAUMANN",
+    "modelo": "BL",
+    "diametro": "3.3mm",
+    "path": "/home/ubuntu/implant_images/STRAUMANN_BL_3.3mm_09.jpg",
+    "search_order": 9
+  },
+  {
+    "original_filename": "73PRMmrGIvDZ.png",
+    "new_filename": "STRAUMANN_BLT_2.9mm_10.jpg",
+    "fabricante": "STRAUMANN",
+    "modelo": "BLT",
+    "diametro": "2.9mm",
+    "path": "/home/ubuntu/implant_images/STRAUMANN_BLT_2.9mm_10.jpg",
+    "search_order": 10
+  },
+  {
+    "original_filename": "74koyDigDGwJ.jpg",
+    "new_filename": "STRAUMANN_BLX_4.5mm_11.jpg",
+    "fabricante": "STRAUMANN",
+    "modelo": "BLX",
+    "diametro": "4.5mm",
+    "path": "/home/ubuntu/implant_images/STRAUMANN_BLX_4.5mm_11.jpg",
+    "search_order": 11
+  },
+  {
+    "original_filename": "7N9yjGS28MPZ.jpg",
+    "new_filename": "STRAUMANN_BLT_2.9mm_12.jpg",
+    "fabricante": "STRAUMANN",
+    "modelo": "BLT",
+    "diametro": "2.9mm",
+    "path": "/home/ubuntu/implant_images/STRAUMANN_BLT_2.9mm_12.jpg",
+    "search_order": 12
+  },
+  {
+    "original_filename": "9HntcKdB9I3h.png",
+    "new_filename": "STRAUMANN_BL_4.1mm_13.jpg",
+    "fabricante": "STRAUMANN",
+    "modelo": "BL",
+    "diametro": "4.1mm",
+    "path": "/home/ubuntu/implant_images/STRAUMANN_BL_4.1mm_13.jpg",
+    "search_order": 13
+  },
+  {
+    "original_filename": "Al1Pqrfv9LAA.jpg",
+    "new_filename": "STRAUMANN_BL_4.8mm_14.jpg",
+    "fabricante": "STRAUMANN",
+    "modelo": "BL",
+    "diametro": "4.8mm",
+    "path": "/home/ubuntu/implant_images/STRAUMANN_BL_4.8mm_14.jpg",
+    "search_order": 14
+  },
+  {
+    "original_filename": "BkBkXlSAv6mi.jpg",
+    "new_filename": "STRAUMANN_BL_3.3mm_15.jpg",
+    "fabricante": "STRAUMANN",
+    "modelo": "BL",
+    "diametro": "3.3mm",
+    "path": "/home/ubuntu/implant_images/STRAUMANN_BL_3.3mm_15.jpg",
+    "search_order": 15
+  },
+  {
+    "original_filename": "ECuOLS3oTA0l.jpg",
+    "new_filename": "STRAUMANN_TLX_4.1mm_16.jpg",
+    "fabricante": "STRAUMANN",
+    "modelo": "TLX",
+    "diametro": "4.1mm",
+    "path": "/home/ubuntu/implant_images/STRAUMANN_TLX_4.1mm_16.jpg",
+    "search_order": 16
+  },
+  {
+    "original_filename": "F89MDC6C3rdw.jpg",
+    "new_filename": "NEODENT_GRAND_MORSE_4.0mm_17.jpg",
+    "fabricante": "NEODENT",
+    "modelo": "GRAND_MORSE",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/NEODENT_GRAND_MORSE_4.0mm_17.jpg",
+    "search_order": 17
+  },
+  {
+    "original_filename": "GUcdTwwXXX6z.webp",
+    "new_filename": "NEODENT_DRIVE_3.5mm_18.jpg",
+    "fabricante": "NEODENT",
+    "modelo": "DRIVE",
+    "diametro": "3.5mm",
+    "path": "/home/ubuntu/implant_images/NEODENT_DRIVE_3.5mm_18.jpg",
+    "search_order": 18
+  },
+  {
+    "original_filename": "I46wckSGrtG2.jpg",
+    "new_filename": "NEODENT_HELIX_4.0mm_19.jpg",
+    "fabricante": "NEODENT",
+    "modelo": "HELIX",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/NEODENT_HELIX_4.0mm_19.jpg",
+    "search_order": 19
+  },
+  {
+    "original_filename": "INjnfYZyJej2.jpg",
+    "new_filename": "NEODENT_DRIVE_4.3mm_20.jpg",
+    "fabricante": "NEODENT",
+    "modelo": "DRIVE",
+    "diametro": "4.3mm",
+    "path": "/home/ubuntu/implant_images/NEODENT_DRIVE_4.3mm_20.jpg",
+    "search_order": 20
+  },
+  {
+    "original_filename": "JzQR1Q66AEjb.jpg",
+    "new_filename": "NEODENT_TITAMAX_3.75mm_21.jpg",
+    "fabricante": "NEODENT",
+    "modelo": "TITAMAX",
+    "diametro": "3.75mm",
+    "path": "/home/ubuntu/implant_images/NEODENT_TITAMAX_3.75mm_21.jpg",
+    "search_order": 21
+  },
+  {
+    "original_filename": "JzjvSpOBAhOQ.jpg",
+    "new_filename": "NEODENT_GRAND_MORSE_4.0mm_22.jpg",
+    "fabricante": "NEODENT",
+    "modelo": "GRAND_MORSE",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/NEODENT_GRAND_MORSE_4.0mm_22.jpg",
+    "search_order": 22
+  },
+  {
+    "original_filename": "KQGpTHazraeP.jpg",
+    "new_filename": "NEODENT_DRIVE_3.5mm_23.jpg",
+    "fabricante": "NEODENT",
+    "modelo": "DRIVE",
+    "diametro": "3.5mm",
+    "path": "/home/ubuntu/implant_images/NEODENT_DRIVE_3.5mm_23.jpg",
+    "search_order": 23
+  },
+  {
+    "original_filename": "Lvt5PESIkIFN.jpg",
+    "new_filename": "NEODENT_HELIX_4.0mm_24.jpg",
+    "fabricante": "NEODENT",
+    "modelo": "HELIX",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/NEODENT_HELIX_4.0mm_24.jpg",
+    "search_order": 24
+  },
+  {
+    "original_filename": "NNKEVfykqbEO.jpg",
+    "new_filename": "ZIMMER_TSV_4.7mm_25.jpg",
+    "fabricante": "ZIMMER",
+    "modelo": "TSV",
+    "diametro": "4.7mm",
+    "path": "/home/ubuntu/implant_images/ZIMMER_TSV_4.7mm_25.jpg",
+    "search_order": 25
+  },
+  {
+    "original_filename": "NTCs8vfOtUUm.jpeg",
+    "new_filename": "ZIMMER_TSV_4.7mm_26.jpg",
+    "fabricante": "ZIMMER",
+    "modelo": "TSV",
+    "diametro": "4.7mm",
+    "path": "/home/ubuntu/implant_images/ZIMMER_TSV_4.7mm_26.jpg",
+    "search_order": 26
+  },
+  {
+    "original_filename": "OUUFJMipHDmI.jpg",
+    "new_filename": "ZIMMER_TSV_4.7mm_27.jpg",
+    "fabricante": "ZIMMER",
+    "modelo": "TSV",
+    "diametro": "4.7mm",
+    "path": "/home/ubuntu/implant_images/ZIMMER_TSV_4.7mm_27.jpg",
+    "search_order": 27
+  },
+  {
+    "original_filename": "OqhMWPKNNuVu.jpg",
+    "new_filename": "ZIMMER_SCREW_VENT_4.0mm_28.jpg",
+    "fabricante": "ZIMMER",
+    "modelo": "SCREW_VENT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/ZIMMER_SCREW_VENT_4.0mm_28.jpg",
+    "search_order": 28
+  },
+  {
+    "original_filename": "PID1RWOwIDTC.jpg",
+    "new_filename": "ZIMMER_TSV_4.7mm_29.jpg",
+    "fabricante": "ZIMMER",
+    "modelo": "TSV",
+    "diametro": "4.7mm",
+    "path": "/home/ubuntu/implant_images/ZIMMER_TSV_4.7mm_29.jpg",
+    "search_order": 29
+  },
+  {
+    "original_filename": "Q1G8sdaphEZ1.webp",
+    "new_filename": "ZIMMER_SWISS_PLUS_4.1mm_30.jpg",
+    "fabricante": "ZIMMER",
+    "modelo": "SWISS_PLUS",
+    "diametro": "4.1mm",
+    "path": "/home/ubuntu/implant_images/ZIMMER_SWISS_PLUS_4.1mm_30.jpg",
+    "search_order": 30
+  },
+  {
+    "original_filename": "QfutdjEpf2Za.jpeg",
+    "new_filename": "ZIMMER_TSV_3.7mm_31.jpg",
+    "fabricante": "ZIMMER",
+    "modelo": "TSV",
+    "diametro": "3.7mm",
+    "path": "/home/ubuntu/implant_images/ZIMMER_TSV_3.7mm_31.jpg",
+    "search_order": 31
+  },
+  {
+    "original_filename": "Zf6M000eoUAS.jpg",
+    "new_filename": "ZIMMER_SCREW_VENT_5.0mm_32.jpg",
+    "fabricante": "ZIMMER",
+    "modelo": "SCREW_VENT",
+    "diametro": "5.0mm",
+    "path": "/home/ubuntu/implant_images/ZIMMER_SCREW_VENT_5.0mm_32.jpg",
+    "search_order": 32
+  },
+  {
+    "original_filename": "a2VXnwD3c5kH.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_33.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_33.jpg",
+    "search_order": 33
+  },
+  {
+    "original_filename": "cB1Mg520qhAt.jpeg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_34.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_34.jpg",
+    "search_order": 34
+  },
+  {
+    "original_filename": "dJzuQzjBdeZz.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_35.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_35.jpg",
+    "search_order": 35
+  },
+  {
+    "original_filename": "fIeq0u1tAEVZ.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_36.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_36.jpg",
+    "search_order": 36
+  },
+  {
+    "original_filename": "fltLwJweYWhl.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_37.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_37.jpg",
+    "search_order": 37
+  },
+  {
+    "original_filename": "gcfbWTNEg1UX.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_38.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_38.jpg",
+    "search_order": 38
+  },
+  {
+    "original_filename": "gcuuJCOss0KC.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_39.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_39.jpg",
+    "search_order": 39
+  },
+  {
+    "original_filename": "gmecS6iFBkUk.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_40.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_40.jpg",
+    "search_order": 40
+  },
+  {
+    "original_filename": "iBAFjnYHDETE.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_41.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_41.jpg",
+    "search_order": 41
+  },
+  {
+    "original_filename": "iowsDlcytFef.webp",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_42.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_42.jpg",
+    "search_order": 42
+  },
+  {
+    "original_filename": "ivrXCRIBvX9w.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_43.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_43.jpg",
+    "search_order": 43
+  },
+  {
+    "original_filename": "kgE3gbbMPT45.webp",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_44.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_44.jpg",
+    "search_order": 44
+  },
+  {
+    "original_filename": "lA7m40AzWv52.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_45.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_45.jpg",
+    "search_order": 45
+  },
+  {
+    "original_filename": "oY53ajbJd0UV.webp",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_46.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_46.jpg",
+    "search_order": 46
+  },
+  {
+    "original_filename": "pW3mFGj6fJTz_thumbnail_grid.webp",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_47.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_47.jpg",
+    "search_order": 47
+  },
+  {
+    "original_filename": "pgnlyM76Kk97.webp",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_48.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_48.jpg",
+    "search_order": 48
+  },
+  {
+    "original_filename": "qfeAmee1InNO.png",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_49.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_49.jpg",
+    "search_order": 49
+  },
+  {
+    "original_filename": "qlxsZjgealLu.png",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_50.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_50.jpg",
+    "search_order": 50
+  },
+  {
+    "original_filename": "uCFG2egCUA2R.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_51.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_51.jpg",
+    "search_order": 51
+  },
+  {
+    "original_filename": "vjQisiWYfDdK.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_52.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_52.jpg",
+    "search_order": 52
+  },
+  {
+    "original_filename": "wMOEzEvVX1ht.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_53.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_53.jpg",
+    "search_order": 53
+  },
+  {
+    "original_filename": "whC1mOMmzh4i.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_54.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_54.jpg",
+    "search_order": 54
+  },
+  {
+    "original_filename": "xdnkFJunmJ44.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_55.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_55.jpg",
+    "search_order": 55
+  },
+  {
+    "original_filename": "yGX3WaIaD1op.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_56.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_56.jpg",
+    "search_order": 56
+  },
+  {
+    "original_filename": "yVyaEvV4b75K_thumbnail_grid.webp",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_57.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_57.jpg",
+    "search_order": 57
+  },
+  {
+    "original_filename": "ydM7pP89kHFa.png",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_58.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_58.jpg",
+    "search_order": 58
+  },
+  {
+    "original_filename": "zOclSpiM8lQ4_thumbnail_grid.webp",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_59.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_59.jpg",
+    "search_order": 59
+  },
+  {
+    "original_filename": "zjbdhAJbvp4q.jpg",
+    "new_filename": "GENERIC_IMPLANT_4.0mm_60.jpg",
+    "fabricante": "GENERIC",
+    "modelo": "IMPLANT",
+    "diametro": "4.0mm",
+    "path": "/home/ubuntu/implant_images/GENERIC_IMPLANT_4.0mm_60.jpg",
+    "search_order": 60
+  }
+]
