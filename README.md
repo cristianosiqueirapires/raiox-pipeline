@@ -175,3 +175,43 @@ conn.close()
 **Última atualização:** 11/06/2025  
 **Status:** ✅ Pipeline 100% funcional e validado
 
+
+
+## Atualização 13/06/2025 - Integração com Servidor Staging
+
+### Novos Recursos Integrados
+
+O pipeline agora está completamente integrado com o servidor staging (45.55.128.141) e inclui:
+
+#### Scripts de Verificação Automática
+- **Agendamento automático** de verificações de resultados
+- **Validação em tempo real** de embeddings CLIP
+- **Monitoramento contínuo** da qualidade dos dados
+
+#### Integração JotForm
+- **Webhook automático** para recebimento de submissões
+- **API de retorno** para envio de resultados processados
+- **Notificações automáticas** de status de processamento
+
+#### Serviços Systemd
+- **raioxapi-verificador.service** - Verificação automática de resultados
+- **raiox-app.service** - Aplicação principal
+- **raiox-api.service** - API de processamento
+
+### Documentação Adicional
+
+Para informações detalhadas sobre a integração, consulte:
+- `docs/mapeamento_servidor_staging.md` - Mapeamento completo do servidor
+- `docs/SOLUÇÃOCOMPLETAINTEGRADA-RAIOXAI+JOTFORM.md` - Integração JotForm
+
+### Próximos Passos
+
+1. **Terraform Implementation** - Migração para Infrastructure as Code
+2. **CI/CD Pipeline** - Automação completa de deployment
+3. **Advanced Monitoring** - Métricas e alertas avançados
+
+---
+
+**Backup realizado em:** 13/06/2025  
+**Servidor de origem:** 45.55.128.141 (raiox-clip-staging)
+
